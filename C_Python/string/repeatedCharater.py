@@ -10,11 +10,13 @@ for ch in text:
     else:
         seen.add(ch)
     
-if first_repeat:
+if first_repeat:   # jar vairable madhe ky tr asel tr manje condition true hote
     print("repeat character:",first_repeat)
 else:
     print("no repeat character")
     
+    
+# other method to solve the example
 text = input("Enter a string:")
 
 for i in range(len(text)):
