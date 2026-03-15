@@ -15,4 +15,15 @@ for i in numbers:
         
 print("count btn in list:",count)
 
-# other way
+# other way  built function
+
+
+
+
+
+
+
+
+
+
+
