@@ -17,6 +17,7 @@ print("count btn in list:",count)
 
 # other way  built function
 
+n2 = input("")
 
 
 
