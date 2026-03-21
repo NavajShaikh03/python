@@ -3,7 +3,7 @@
 text  = input("Enter the String:")
 
 if text !="":
-    # result = text[0].lower() + text[1:]
+    result = text[0].lower() + text[1:]
     first = text[0]
     
     if 'A' <= first <= 'Z':
@@ -11,3 +11,16 @@ if text !="":
     result = first + text[1:]
     print("Decapitallized String:", result)
     
+    
+
+# other way to slove
+
+text2 = input("Enter the String:")
+
+if text2 !="":
+    first = text2[0]
+    
+    if 'A' <= first <= 'Z':
+        first = chr(ord(first)+32)   # Convert uppercase to lowercase using ASCII values and chr() function , ord() function returns the ASCII value of a character.
+    result = first + text2[1:]
+    print("Decapitallized String:", result)
