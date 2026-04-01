@@ -10,3 +10,11 @@ print("mahi",6,sep="---",end="***")
 
 # vaibles and data types
 
+ 
+n1 = 65
+n2   = 56
+
+print(n1+n2)
+print(n1-n2)
+print(n1*n2)
+print(n1/n2)
