@@ -18,3 +18,22 @@ print(n1+n2)
 print(n1-n2)
 print(n1*n2)
 print(n1/n2)
+
+# a =  input("Enter your name :")
+# print("My name is ",a)
+
+# x = input("Enter first name :")
+# y = input("Enter the second name :")
+
+# print(x + y)
+
+
+#   condition statement
+
+a  = int(input("Enter the age :"))
+print("Your age is :",a)
+
+if (a > 18):
+    print("You can drive")
+else:
+    print("You can not drive")
