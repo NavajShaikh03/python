@@ -74,11 +74,32 @@
 #     if(i == "b"):
 #         print("this is something special!")
         
-colors = ["Red","Green","Blue","Yellow"]
-for color in colors:
-    print(color)
-    for i in color:
-        print(i)
+# colors = ["Red","Green","Blue","Yellow"]
+# for color in colors:
+#     print(color)
+#     for i in color:
+#         print(i)
         
-for k in range(1, 100+1,2):
-    print(k)
+# for k in range(1, 100+1,2):
+#     print(k)
+    
+# # while loop 
+
+# i = int(input("Enter the number"))
+# while(i<3):
+#     print(i)
+#     i =i + 1
+# print("Done with the loop")
+
+for i in range(12):
+    if(i == 10):
+        print("Skip the iteration ")
+        continue
+    print("5 X" ,i+1,"=" , 5 *(i+1) )
+    
+i =0
+while True :
+    print(i)
+    i = i +1
+    if(i % 100 == 0):
+        break
