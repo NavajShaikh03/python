@@ -15,6 +15,10 @@ for i in range(0,len(lst),2):
     tem_sub_list.clear()             
 print(allSublist)   # this print but empty why not ??
  
-        
+ 
+# other way to solve question      using list comprenssion
+
+ans = [[i,j]for i in lst for j in lst if i-j ==3 or i-j ==-3 ]
+print(ans)  
         
         
