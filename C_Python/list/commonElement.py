@@ -11,7 +11,7 @@ print("common element in both list:",common_element)
 
 # other way to find common element in both list using set data structure
 
-third_list = first_list + second_list
+third_list = first_list + second_list    #   combine the two list then 
 print("third list:",third_list)
 
 common_element_set = set()
