@@ -18,7 +18,7 @@ print(allSublist)   # this print but empty why not ??
  
 # other way to solve question      using list comprenssion
 
-ans = [[i,j]for i in lst for j in lst if i-j ==3 or i-j ==-3 ]
+ans = [[i,j]for i in lst for j in lst if i-j ==3 or i-j ==-3 ]    ## this is list compression add the list to sub_list
 print(ans)  
         
         
