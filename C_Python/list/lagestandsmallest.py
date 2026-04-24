@@ -10,7 +10,7 @@ print("Smallest number in list is :",numbers[0])
 
 # other way 
 
-largest = numbers[0]
+largest = numbers[0]     #  consider the first number is smaller same as the smallest
 smallest = numbers[0]
 
 for i in numbers:
