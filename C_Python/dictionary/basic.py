@@ -33,9 +33,9 @@ dic = {
     "other_color":"Black_and_white",
 }
 
-print(dic.items())
-print(dic.keys())
-print(dic.values())
+print(dic.items())   # give the all pairs of keys and values
+print(dic.keys())    # give the all keys of dictionary
+print(dic.values())  # give the all value of keys present in dictionary  
 
 take_key = dic.get("age")  # give the key if key are not found then return none 
 print(take_key)
