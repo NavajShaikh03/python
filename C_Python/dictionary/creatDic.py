@@ -1,12 +1,12 @@
 # 1. WAP to concatenate the two dictionaries to create a new one    
 
-dic1={
+dic1={                        # first dictionary and its content
     "name" : "navaj",
     "age"  : 22,
     "village":"Solapur",
 }
 
-dic2 ={
+dic2 ={                        # this is second dictionary
     "SirName" : "Shaikh",
     "Equcation" :"B-Tech",
     "CGPA": 9.00,
