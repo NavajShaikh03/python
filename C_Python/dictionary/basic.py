@@ -70,3 +70,22 @@ print(dic)
 
 dic.fromkeys("name")     # return the pairs of name 
 print(dic)
+
+# nested dictionary
+
+student = {
+    "name" : "Rahul Kumar",
+    "subjects" : {
+        "physics"   : 53,
+        "chemistry" :35,
+        "Math "     :90,
+    }
+}
+
+print(student["name"])
+print(student["subjects"])
+print(student["subjects"]["physics"])
+
+print(len(student))   # count the all keys
+
+print(list(student.values()))   # its convert all data in list
