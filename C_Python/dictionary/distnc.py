@@ -21,4 +21,4 @@ for value in dict1.values():
         unique_value.append(value)      # add the unique values 
     else:
         print("Repeated values in dictionary :",value)    #  print the repeated values 
-print("unique value is :",unique_value)
+print("unique value is :",unique_value)     # find the unique value from the dictionary
