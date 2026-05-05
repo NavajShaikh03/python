@@ -12,7 +12,7 @@ dic1 = {
 dic2={
     "name" : "Mujir",
     "age"  : 20,
-    "city" : "Kolhapur",
+    "city" : "Begampur",
     "marks": 8.5,
 }
 
@@ -29,7 +29,7 @@ dic2={
 merged = {}     # empty dictionary
 for key in dic1: # dictionary 1 add in merged 
         if key in dic2:
-            merged[key] = [dic1[key],dic2[key]]
+            merged[key] = [dic1[key],dic2[key]]     #  take the value from both dictionary and store in list and this list store in key  
         else:
             merged[key]=dic1[key]
 
@@ -38,3 +38,6 @@ for key in dic2:     # dictionary 2 add in merged
         merged[key] = dic2[key]
 
 print(merged)
+
+
+# Note : if value is same but different key like key is village and city then how to solve ????
