@@ -20,7 +20,7 @@ for value1 in dict1.values():
 # other way to 
 
 for item in dict1.items():   # find the keys-values pairs of both dictionary
-    if item in dict2.items():
+    if item in dict2.items():   # match the same items from both dictionary and return
         print(item)
         
 # other ways to find the pairs 
