@@ -22,4 +22,10 @@ print(key_sorted)
 
 for key in dict_list:
     dict_list[key].sort()
+    dict_list[key].index()
+    print("count of the key if list:",dict_list[key].count())
 print((dict_list))
+
+
+for index in dict_list[key]:
+    index.index("index")
