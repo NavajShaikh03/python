@@ -16,8 +16,8 @@ filtered = {}
 felled = {}
 for key , value in Student_percentage.items():
     if Student_percentage[key] >= 35:
-        filtered[key] = value
+        filtered[key] = value              # store the key-value pairs which the grater then 35 in variable 
     else:
-        felled[key]=value
+        felled[key]=value                  # store the value less then 35 in variable...
 print("Passed student is :",filtered)
 print("Felled Student is :",felled)
