@@ -5,3 +5,5 @@ square_no= {}
 for i in range(1,n+1):
     square_no.setdefault(i,i**2)   # add each keys and its value in squ.
 print(square_no)
+
+# Note : Suppose the you have empty dictionary and you will add the element use the setdefault() function 
