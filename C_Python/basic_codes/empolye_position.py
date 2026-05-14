@@ -1,5 +1,5 @@
 name = input("Enter empolyee name:")
-exp = int(input("Enter your experience in year :"))
+exp = int(input("Enter your experience in year :")) # take the experience from user and print their position  
 
 if(exp >= 0 and exp<=1):
     {
