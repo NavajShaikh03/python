@@ -7,7 +7,7 @@ new_list= []              # for convert sub_list to one list
 for i in lst:
     for j in i:
         new_list.append(j)  # create new list add number one by one 
-for num in set(new_list):
+for num in set(new_list):   #  this is set use for which number count but not repeated it number 
     print(num,":",new_list.count(num))   # this use the count frequency of number
     
     
