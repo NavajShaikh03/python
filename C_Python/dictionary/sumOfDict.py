@@ -13,4 +13,4 @@ print("Sum of the marks of the student is ",sum(student_marks.values()))   # usi
 sum_marks = 0
 for value in student_marks.values():   # using the for and take the one by one value add the variable
     sum_marks= sum_marks + value
-print("marks of student is :",sum_marks)
+print("marks of student is :",sum_marks) 
