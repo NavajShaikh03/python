@@ -6,5 +6,5 @@ print(odd_square)
 
 # other way to solve this it 
 
-odd_no_square = [ odd*odd  for odd in range(1,21) if odd % 2 !=0 ]
+odd_no_square = [ odd*odd  for odd in range(1,21) if odd % 2 !=0 ]   # if condition is true then take the odd number and multiply the itself 
 print(odd_no_square)
