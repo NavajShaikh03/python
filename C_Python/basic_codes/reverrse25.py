@@ -10,7 +10,7 @@
 # # same as other method
 
 # number = input("Enter the number :")
-# print(number[::-1])
+# print(number[::-1])                        # this method is slices 
 
 
 number2 = input("enter the large number for reverse order :")
