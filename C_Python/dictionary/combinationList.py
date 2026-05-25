@@ -9,5 +9,5 @@ dict = {
 list_value = []
 for character in dict["1"]:   #  Take one character from on list and multiply the second list of dictionary
     for value in dict["2"]:
-            list_value.append(character * value)
+            list_value.append(character + value)
 print(list_value)
