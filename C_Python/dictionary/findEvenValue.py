@@ -2,5 +2,12 @@
 # a dictionary
 
 dict = {
-    
+    "Mujir" : 34,
+    "Navaj" : 23,
+    "Mahi"  : 21,
+    "Imran" : 20,
 }
+
+for key in dict.keys():
+    if dict[key] > 25:
+        print(key ,":",dict[key])
