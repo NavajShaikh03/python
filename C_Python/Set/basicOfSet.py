@@ -21,3 +21,23 @@
 # intersection()
 # difference()
 # symmetric_difference()
+
+
+# practice 
+
+s = {2,34,56,342,253}   #  this sample set
+
+print(type(s))
+
+s.add(3333)  #  add the element
+print(s)
+
+s.update([343334])
+print(s)
+
+s.remove(34)     # if key are not sound give  the error 
+print(s)
+
+s.discard(3333) # same as the remove method but one different if key are not found then not give the error 
+
+print(s)
