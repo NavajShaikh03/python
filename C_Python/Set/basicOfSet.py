@@ -27,6 +27,8 @@
 
 s = {2,34,56,342,253}   #  this sample set
 
+s2 = {23,34,23,2,23,53,1}
+
 print(type(s))
 
 s.add(3333)  #  add the element
@@ -41,3 +43,9 @@ print(s)
 s.discard(3333) # same as the remove method but one different if key are not found then not give the error 
 
 print(s)
+
+u =s.union(s2)
+
+print(u)
+
+i = s.intersection(s2)
