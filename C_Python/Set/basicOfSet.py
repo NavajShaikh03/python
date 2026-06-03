@@ -76,3 +76,14 @@ print(s.issubset(s2))                  # if check the subset of set s2 if not pr
 print(s.issuperset(s2))                # all element of set s is present in s2 if yes print true
 
 print(s.isdisjoint(s2))               # if check the no common element 
+
+# symbol of method
+
+set1 = {1,2,3,4,5,6,7,8,9}
+set2 = {10,20,30,40,50,60}
+
+
+print("Union:",set1 | set2)
+print("intersection:",set1 & set2)
+print("Difference:",set1-set2)
+print("symmetric Difference",set1 ^ set2 )
