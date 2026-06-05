@@ -7,10 +7,10 @@ for i in range(len(l1)):  # find the similar number from list
         
 # other way
 
-print(set(l1) & set(l2))
+print(set(l1) & set(l2))     #  this intersection concept and symbol. give the common element 
 
 
 # other way
 common = [x for x in l1 if x in l2]
 print(common)
-
+ 
