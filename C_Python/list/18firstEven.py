@@ -11,5 +11,5 @@ for odd in range(len(originalList)):
         firstOdd=firstOdd+int(originalList[odd])
         break                                      # when key are found then break the loop
     
-print("first even no. from list is :",firstEven)
+print("first even no. from list is :",firstEven)   # get the first even number from list
 print("first odd in the list is :",firstOdd)
