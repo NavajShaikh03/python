@@ -12,7 +12,7 @@ dict1 = {
     "G":1,
 }
 
-print(set(dict1.values()))
+print(set(dict1.values()))    # this set are reduce the same number from dictionary
 
 
 unique_value =[]
