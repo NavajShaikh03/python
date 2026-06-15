@@ -8,6 +8,6 @@ dict = {
     "Imran" : 20,
 }
 
-for key in dict.keys():
-    if dict[key] > 25:
+for key in dict.keys(): #  access the each key 
+    if dict[key] > 25:  # check the value of key greater then 25
         print(key ,":",dict[key])
