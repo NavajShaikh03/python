@@ -9,16 +9,16 @@ marks = {
     "Vaibhav": 56,
 }
 
-print("minimum marks of student is ",min(marks.values()))
-print("Maximum marks of student is :",max(marks.values()))
+print("minimum marks of student is ",min(marks.items()))
+print("Maximum marks of student is :",max(marks.items()))
 
 max_marks = 0
 min_marks = 0
 
-for mark in marks.values():   # this loop reach to end 
-    if mark > max_marks:
-        max_marks = mark
+for mark_key in marks.keys():   # this loop reach to end 
+    if marks[mark_key] > max_marks:
+        max_marks = marks[mark_key]
     else:
-        min_marks = mark
+        min_marks = marks[mark_key]
 print(f"max marks is {max_marks} and minimum marks is {min_marks}")
         
