@@ -86,6 +86,6 @@ print(student["name"])
 print(student["subjects"])
 print(student["subjects"]["physics"])
 
-print(len(student))   # count the all keys
+print(len(student))   # count the all keys only main key  not sub-key
 
-print(list(student.values()))   # its convert all data in list
+print(list(student.values()))   # its convert all data in list only key value of key and sub-key
