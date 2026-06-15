@@ -7,11 +7,11 @@ if(exp >= 0 and exp<=1):
     }
 elif(exp > 1 and exp <= 2):
     {
-        print("{name} you are senior")
+        print(f"{name} you are senior")
     }
 elif(exp > 2 and exp <= 3):
     {
-        print("{name} you are cheaf lead")
+        print(f"{name} you are cheaf lead")
     }
 else:
     {
