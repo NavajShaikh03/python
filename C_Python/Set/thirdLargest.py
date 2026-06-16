@@ -1,4 +1,4 @@
-number = {3,5,4,2,9,8,45,85,93}
+number = {3,5,4,2,9,8,45,85,87900,93}
 
 copy_number = number.copy()     # create the copy set and perform operation
 print(copy_number)
