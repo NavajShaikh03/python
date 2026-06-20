@@ -13,3 +13,4 @@ new_string =""
 for i in range(1,len(text2)-1):
     new_string += text[i]
 new_string = text2[-1] + new_string + text2[0]
+print(new_string)
