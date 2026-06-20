@@ -7,8 +7,8 @@ dict = {
     2 :['a','b','c','a']
 }
 
-# new_dict = {}
-# for key in dict:
-#     unique_list =  set(dict[key])
-#     new_dict[key] = unique_list
-# print(new_dict)
+new_dict = {}    
+for key in dict:
+    unique_list =  set(dict[key])   # using the set remove the same element from list
+    new_dict[key] = unique_list
+print(new_dict)
