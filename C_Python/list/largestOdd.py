@@ -13,7 +13,7 @@ lst = ([0, 9, 2, 4, 5, 6,7,98,989,56])
 
 # other way to solve problem
     
-largestOdd=0
+largestOdd=0   # calculate the largest large number.
 for i in lst :
     if i % 2 !=0:
         if largestOdd < i:
