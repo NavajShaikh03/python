@@ -84,6 +84,25 @@ set2 = {10,20,30,40,50,60}
 
 
 print("Union:",set1 | set2)
-print("intersection:",set1 & set2)
+print("intersection:",set1 & set2)   # return empty set when the not fund the common element 
 print("Difference:",set1-set2)
 print("symmetric Difference",set1 ^ set2 )
+
+
+set = {8,46,3,2,52,5,24,64,23,54,23,112,55,64,34,67,64,34,7}
+for i in set:
+    print(i)
+    
+    
+    
+set1 = {3,44,45,46,47,48,49,50}
+
+
+
+set1.add(51)
+set1.remove(3)
+
+if 44 in set1:
+    print("found")
+else:
+    print("not found")
