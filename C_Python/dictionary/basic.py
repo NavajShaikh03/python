@@ -89,3 +89,16 @@ print(student["subjects"]["physics"])
 print(len(student))   # count the all keys only main key  not sub-key
 
 print(list(student.values()))   # its convert all data in list only key value of key and sub-key
+
+dict_practice = {
+    
+    "name" : " Navaj Shaikh ",
+    "City" : "Begampur",
+    "age"  : 22,
+    "habit":"Reading books ",
+    "Color":"red",
+}
+
+print(dict_practice.keys())
+print(dict_practice.values())
+print(dict_practice.items())
