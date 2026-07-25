@@ -1,6 +1,7 @@
 text = input("Enter the string:")
 
-word = text.split()
+word = text.split()     #  split convert into the string to word of list
+print(word)
 repeat = []
 for i  in word:
     count =0
