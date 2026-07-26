@@ -11,3 +11,4 @@ for i  in word:
     if i not in repeat:
         repeat.append(i)
         print("the count of word",i,"is:",count)
+        
