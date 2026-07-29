@@ -11,18 +11,4 @@ result = reverse_string(input_string)
 print("Reversed String:",result)
 
 
-# other way
-
-
-def r_string(text):
-    
-    if len(text) % 4 == 0:
-        reversed =
-
-
-
-
-
-text = input("Enter  string:")
-
     
