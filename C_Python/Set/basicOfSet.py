@@ -102,7 +102,7 @@ set1 = {3,44,45,46,47,48,49,50}
 set1.add(51)
 set1.remove(3)
 
-if 44 in set1:
+if 44 in set1:    # find the number from set 
     print("found")
 else:
     print("not found")
