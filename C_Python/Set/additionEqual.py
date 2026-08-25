@@ -13,9 +13,14 @@ for i in range(0,len(numbers_list)):
         if pair_of_addition == target_sum :
             pairs.append([numbers_list[i],numbers_list[j]])
             
+    # same number addition pairs 
     sameNo_addition = numbers_list[i] + numbers_list[i]
     if sameNo_addition == target_sum:                      # this condition execute end of the loop it give the same number pairs addition 
         pairs.append([numbers_list[i], numbers_list[i]])
+    
+    # same number is itself addition of two numbers 
+    if target_sum == numbers_list[i]:
+        pairs.append([numbers_list[i]])
 
 print(f"your number is {target_sum} pairs of addition is :",pairs)
             
