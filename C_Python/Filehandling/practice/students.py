@@ -24,12 +24,23 @@ with open("D:\python\C_Python\Filehandling\practice\studensts.txt","r") as f:
             
     # i want to calculate the average marks
         
-            
-        
-
-
-        
+    f.seek(0)
     
-    # i want find the height marks 
-    
+    # calculate the average marks and count student and total marks 
+    with open("D:\python\C_Python\Filehandling\practice\studensts.txt","r") as f:
+                
+        total = 0
+        total_student =0
+        
+        for line in f:
+            name,marks = line.strip().split(",")
+            marks= int(marks)
+            total += marks    
+            total_student+=1
+        
+        average =total/total_student
+        
+        print("Total marks:",total)
+        print("number of student: ",total_student)
+        print("Average marks:",average)
     
